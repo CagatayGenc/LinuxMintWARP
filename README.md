@@ -23,7 +23,7 @@ For example. I am using Xia and Xia = noble
 
 # 3 - Add this repo to your apt repositories.
 
-For noble:
+For Xia 22.1 (noble):
 ```
 echo "deb [arch=amd64, signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ noble main" | sudo tee /etc/apt/sources.list.d/cloudflare-client.list
 ```

@@ -2,14 +2,14 @@
 It's a "How to install WARP at Linux Mint" guide.
 
 
-# 1 - Add cloudflare gpg key.
+## 1 - Add cloudflare gpg key.
 ```
 curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg | sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
 ```
 
 
 
-# 2 - Find your Mint's "PACKAGE BASE".
+## 2 - Find your Mint's "PACKAGE BASE".
 
 https://linuxmint.com/download_all.php
 
@@ -21,7 +21,7 @@ For example. I am using Xia and Xia = noble
 
 
 
-# 3 - Add this repo to your apt repositories.
+## 3 - Add this repo to your apt repositories.
 
 For Xia 22.1 (noble):
 ```
@@ -37,7 +37,7 @@ echo "deb [arch=amd64, signed-by=/usr/share/keyrings/cloudflare-warp-archive-key
 
 
 
-# 4 - Install.
+## 4 - Install.
 ```
 sudo apt-get update && sudo apt-get install cloudflare-warp
 ```
